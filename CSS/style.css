@@ -5,6 +5,9 @@ html{
 
     /* div de la pagina completa donde añadir las columns */
 .switch{
+    /* background-image: url(../imagenes/switch.png);
+    background-position: center;
+    background-repeat: no-repeat; */
     justify-content: center;
     display: grid;
     align-self: center;
@@ -29,32 +32,38 @@ html{
 }
 
 .l1{
-    align-self:start;
     position: absolute;
+    overflow: hidden;
+    width: 5.5vw;
+    height: 5.6vh;
+    border-radius: 30vw 0 0 0;
+    margin-top: -18.5vw;
+    margin-left: 0vh;
+}
+
+.l1button{
     background-color: #2e3134;
-    width: 6.5vw;
-    height: 10vh;
-    border-radius: 50px 20px 0 50px;
-    margin-top: 15.5vw;
-    margin-left: -0.15vh;
+    border: 0.05vw solid black;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 3.9vw 0 0 0;
+    margin-top: 0.3vh;
+
 }
 
 .l1:active{
-   margin-top: 15.7vw; 
+   margin-top: -18.2vw; 
 }
 
 .joycon_left{
-    border: 1px solid cyan;
+    border: 0.05vw solid cyan;
     background-color: cyan ;
     width: 6.65vw;
     height: 39.6vh;    
-    border-radius: 50px 0 0 50px;
+    border-radius: 4.2vw 0 0 4.2vw;
     margin-top: 0.2vw;
     position: absolute;
-}
-
-.joycon_left:active{
-    margin-top: 0.2;    
+    
 }
 
 .less{
@@ -79,7 +88,7 @@ html{
     width: 3.5vw;
     height: 6.5vh;
     overflow: hidden;
-    border-radius: 100rem;
+    border-radius: 100vw;
 }
 
 .l3{
@@ -89,7 +98,7 @@ html{
     width: 3.5vw;
     height: 6.5vh;
     background-color: #2e3134;
-    border-radius: 100rem;
+    border-radius: 100vw;
 }
 
 .l3:active{
@@ -102,7 +111,7 @@ html{
 .center{
     width: 2.2vw;
     height: 4.3vh;
-    border: 1.5px solid rgb(26, 25, 25);
+    border: 0.1vw solid rgb(26, 25, 25);
     border-radius: 100rem;
     margin-left: 0.55vw;    
 }
@@ -110,7 +119,7 @@ html{
 .center:active{
     width: 1.9vw;
     height: 3.7vh;
-    margin-left: 0.5vw;
+    margin-left: 0.4vw;
 }
 
 
@@ -123,26 +132,25 @@ html{
 }
 
 .r1{
-    align-self:start;
-    position: absolute;
+    position: fixed;
     background-color: #2e3134;
     width: 6.5vw;
     height: 10vh;
-    border-radius: 20px 50px 50px 0;
-    margin-top: 15.5vw;
+    border-radius: 1vw 2.3vw 0 0;
+    margin-top: -16.2vw;
     margin-left: 0.35vw;
 }
 
 .r1:active{
-   margin-top: 15.7vw; 
+    margin-top: -15.9vw;  
 }
 .joycon_right{
-    position: absolute;
-    border: 1px solid red;
+    position: fixed;
+    border: 0.05vw solid red;
     background-color: red;
     width: 6.65vw;
-    height: 39.6vh;    
-    border-radius: 0 50px 50px 0;
+    height: 39.6vh;   
+    border-radius: 0 2.5vw 2.5vw 0;
     margin-bottom: -0.24vw;
     /* margin-top: -30vw; */
 }
