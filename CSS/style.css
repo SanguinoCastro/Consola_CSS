@@ -1,0 +1,153 @@
+
+html{
+    margin: 0;      
+}
+
+    /* div de la pagina completa donde añadir las columns */
+.switch{
+    justify-content: center;
+    display: grid;
+    align-self: center;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+    grid-template-columns: 0.45fr 0.122fr 0.635fr 0.122fr 0.45fr;
+}
+
+    /* divs de las columnas donde ubicar las diferentes partes de la consola */
+.switch > .division{
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+       
+}
+
+.joycon{
+    display: flex;
+    justify-content: center;
+}
+
+.l1{
+    align-self:start;
+    position: absolute;
+    background-color: #2e3134;
+    width: 6.5vw;
+    height: 10vh;
+    border-radius: 50px 20px 0 50px;
+    margin-top: 15.5vw;
+    margin-left: -0.15vh;
+}
+
+.l1:active{
+   margin-top: 15.7vw; 
+}
+
+.joycon_left{
+    border: 1px solid cyan;
+    background-color: cyan ;
+    width: 6.65vw;
+    height: 39.6vh;    
+    border-radius: 50px 0 0 50px;
+    margin-top: 0.2vw;
+    position: absolute;
+}
+
+.joycon_left:active{
+    margin-top: 0.2;    
+}
+
+.less{
+    background-color: #2e3134;
+    width: 1.2vw;
+    height: 0.52vh;
+    margin-top: 2.05vw;
+    margin-left: 7.2vh;
+    position: static;
+}
+
+.less:active{
+    background-color: rgb(31, 30, 30);
+    height: 0.4vh;
+    margin-top: 2.1vw;
+}
+
+.joystick_left{
+    justify-self: center;
+    margin-top: 7.2vh;
+    margin-left: -8.3vh;
+    width: 3.5vw;
+    height: 6.5vh;
+    overflow: hidden;
+    border-radius: 100rem;
+}
+
+.l3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 3.5vw;
+    height: 6.5vh;
+    background-color: #2e3134;
+    border-radius: 100rem;
+}
+
+.l3:active{
+    width: 3vw;
+    height: 5.7vh;
+    margin-left: 0.3vw;
+    margin-top: 0.5vh;
+}
+
+.center{
+    width: 2.2vw;
+    height: 4.3vh;
+    border: 1.5px solid rgb(26, 25, 25);
+    border-radius: 100rem;
+    margin-left: 0.55vw;    
+}
+
+.center:active{
+    width: 1.9vw;
+    height: 3.7vh;
+    margin-left: 0.5vw;
+}
+
+
+.console{
+    border: 1px solid black;
+    /* background-color: rgb(43, 43, 43); */
+    width: 50vw;
+    height: 39.6vh;
+    margin-bottom: -0.24vw;
+}
+
+.r1{
+    align-self:start;
+    position: absolute;
+    background-color: #2e3134;
+    width: 6.5vw;
+    height: 10vh;
+    border-radius: 20px 50px 50px 0;
+    margin-top: 15.5vw;
+    margin-left: 0.35vw;
+}
+
+.r1:active{
+   margin-top: 15.7vw; 
+}
+.joycon_right{
+    position: absolute;
+    border: 1px solid red;
+    background-color: red;
+    width: 6.65vw;
+    height: 39.6vh;    
+    border-radius: 0 50px 50px 0;
+    margin-bottom: -0.24vw;
+    /* margin-top: -30vw; */
+}
+
+.joycon_right:active{
+    margin-top: 0;    
+}
+
