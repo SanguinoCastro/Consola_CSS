@@ -21,3 +21,7 @@ Se debe utilizar Git-Hub y realizar un README funcional para demostrar que se ha
 ###  Insturcciones de instalacion
 
 <b> Descargue el .Zip, descomprimalo en una carpeta y abra el archivo index.html en su buscador de preferencia.
+
+#### Actualizaciones del proyecto
+
+<b> 10/12/2022 - Se han creado las divisiones de la consola, se ha empezado a diseñar los mandos "Joy-con" añadiendo botones con divs y su ":active".
