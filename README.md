@@ -25,3 +25,5 @@ Se debe utilizar Git-Hub y realizar un README funcional para demostrar que se ha
 #### Actualizaciones del proyecto
 
 <b> 10/12/2022 - Se han creado las divisiones de la consola, se ha empezado a diseñar los mandos "Joy-con" añadiendo botones con divs y su ":active".
+
+11/12/2022 - Se ha realizado el diseño de la consola con sus botones correspondientes y sus ":active"
