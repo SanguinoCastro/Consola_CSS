@@ -42,8 +42,7 @@ html{
 }
 
 .l1button{
-    background-color: #2e3134;
-    border: 0.05vw solid black;
+    background-color: #2e3134;  
     width: 10vw;
     height: 8vh;
     border-radius: 3.9vw 0 0 0;
@@ -56,9 +55,9 @@ html{
 }
 
 .joycon_left{
-    border: 0.05vw solid cyan;
-    background-color: cyan ;
-    width: 6.65vw;
+    /* border: 0.05vw solid cyan; */
+    background-color: #00bddc ;
+    width: 6.75vw;
     height: 39.6vh;    
     border-radius: 4.2vw 0 0 4.2vw;
     margin-top: 0.2vw;
@@ -97,6 +96,7 @@ html{
     justify-content: center;
     width: 3.5vw;
     height: 6.5vh;
+    border: 0.05vw solid black;
     background-color: #2e3134;
     border-radius: 100vw;
 }
@@ -107,7 +107,6 @@ html{
     margin-left: 0.3vw;
     margin-top: 0.5vh;
 }
-
 .center{
     width: 2.2vw;
     height: 4.3vh;
@@ -123,6 +122,85 @@ html{
 }
 
 
+.button{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #43484b;
+    border: 0.05vw solid black;
+    width: 1.4vw;
+    height: 2.8vh;
+    border-radius: 5vh;
+}
+
+.button:active{
+   background-color: #2e3134;
+    
+}
+
+.arrows{
+    position: fixed;
+    width: 5.5vw;
+    height: 9.5vh;
+    margin-top: 8.5vw;
+    margin-left: 1vh;
+}
+
+.arrow_buttons{
+    width: 0.6vw;
+    height: 1.2vh;
+    margin-top: 0.8vh;
+}
+
+#up{
+    margin-left: 3.7vh;
+    margin-top: 0.1vw;
+}
+
+#down{
+    margin-left: 3.7vh;
+    margin-top: 3.2vw;
+}
+
+#left{
+    margin-left: 0.5vh;
+    margin-top: 1.7vw;
+}
+
+#right{
+    margin-left: 6.9vh;
+    margin-top: 1.7vw;
+}
+
+.media{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #43484b;
+    border: 0.05vw solid black;
+    width: 1.2vw;
+    height: 2.4vh;
+    margin-top: 14.2vw;
+    margin-left: 5vh;
+    border-radius: 0.2vw;
+}
+
+.m_center{
+    border: 0.05vw solid ;
+    background-color: #2e3134;
+    align-self: center;
+    width: 0.7vw;
+    height: 1.4vh;
+    border-radius: 1vh;
+}
+
+.media:active{
+    width: 1vw;
+    height: 2vh;
+    margin-top: 14.4vw;
+}
+
+
 .console{
     border: 1px solid black;
     /* background-color: rgb(43, 43, 43); */
@@ -132,25 +210,36 @@ html{
 }
 
 .r1{
-    position: fixed;
-    background-color: #2e3134;
-    width: 6.5vw;
-    height: 10vh;
-    border-radius: 1vw 2.3vw 0 0;
-    margin-top: -16.2vw;
-    margin-left: 0.35vw;
+    position: absolute;
+    overflow: hidden;
+    width: 5.5vw;
+    height: 5.6vh;
+    border-radius: 0 30vw 0 0;
+    margin-top: -18.5vw;
+    margin-left: 2.2vh;
 }
 
+.r1button{
+    background-color: #2e3134;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 0 3.9vw 0 0;
+    margin-top: 0.3vh;
+    margin-left: -8.4vh;
+
+}
+
+
 .r1:active{
-    margin-top: -15.9vw;  
+    margin-top: -18.2vw;  
 }
 .joycon_right{
     position: fixed;
-    border: 0.05vw solid red;
-    background-color: red;
+    /* border: 0.05vw solid red; */
+    background-color: #ff5449;
     width: 6.65vw;
     height: 39.6vh;   
-    border-radius: 0 2.5vw 2.5vw 0;
+    border-radius: 0 4.2vw 4.2vw 0;
     margin-bottom: -0.24vw;
     /* margin-top: -30vw; */
 }
