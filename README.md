@@ -1,4 +1,5 @@
-##   Reto Layout de Netflix
+![](imagenes/icon.png)
+##   Reto Videconsola con CSS
 
 ###   Presentación
 
@@ -10,6 +11,10 @@
     - HTML5
     - CSS3
         El uso de Flexbox es crucial en este caso.
+También haremos uso de las siguientes herramientas:
+    - Visual Studio Code
+    - Git
+    - GitHub
 Hacer botones que reaccionen al encendido da puntos extra.
 
 ####  Información adicional
@@ -22,8 +27,10 @@ Se debe utilizar Git-Hub y realizar un README funcional para demostrar que se ha
 
 <b> Descargue el .Zip, descomprimalo en una carpeta y abra el archivo index.html en su buscador de preferencia.
 
-#### Actualizaciones del proyecto
+### Actualizaciones del proyecto
 
 <b> 10/12/2022 - Se han creado las divisiones de la consola, se ha empezado a diseñar los mandos "Joy-con" añadiendo botones con divs y su ":active".
 
 11/12/2022 - Se ha realizado el diseño de la consola con sus botones correspondientes y sus ":active"
+
+12/12/2022 - Se han añadido detalles esteticos como el sombreado, se han sustituido unidades de medida a vh para medidas y margenes generales y px para los border-radius y los sombreados.

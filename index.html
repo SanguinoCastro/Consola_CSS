@@ -8,18 +8,20 @@
     <title>Nintendo Switch</title>
 </head>
 <body>
+
+        <!-- Creamos el div para contener todo el proyecto con sis divisiones en grid para separar las distintas partes de la consola (los mandos joy-con y la consola)-->
     <div class="switch">
+        <!-- División vacia para posicionar la consola en el centro de la ventana -->
         <div class="division">
 
         </div>
-
+        <!-- Se crea el mando joy-con izquierdo cons sus botones y estilos -->
         <div class="division">
-            
             <div class="l1">
                 <div class="l1button"></div>
             </div>
             <div class="joycon_left joycon">
-                <div class="less"></div>       
+                <div class="less"></div>
                 <div class="joystick_left">
                     <div class="lr3">
                         <div class="center"></div>
@@ -29,28 +31,26 @@
                    <div class="button" id="up"><img class="arrow_buttons" src="./imagenes/up.png" alt="↑"></div>
                    <div class="button" id="down"><img class="arrow_buttons" src="./imagenes/down.png" alt="↓"></div>
                    <div class="button" id="left"><img class="arrow_buttons" src="./imagenes/left.png" alt="←"></div>
-                   <div class="button" id="right"><img class="arrow_buttons" src="./imagenes/right.png" alt="→"></div> 
+                   <div class="button" id="right"><img class="arrow_buttons" src="./imagenes/right.png" alt="→"></div>
                 </div>
                 <div class="media">
                     <div class="m_center"></div>
                 </div>
             </div>
-            
         </div>
-
+        <!-- Se crea la parte del monitod e la pantalla con los botones de volumen correspondientes -->
         <div class="division">
             <div class="console">
                 <div class="vol_up vol"></div>
                 <div class="vol_down vol"></div>
                 <div class="window">
-                    <div class="decoration_left"></div>
                     <div class="lcd_mark">
                         <div class="lcd"></div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Se crea el mando joy-con derecho con sus botones correspondientes-->
         <div class="division">
             <div class="r1">
                 <div class="r1button"></div>
@@ -63,7 +63,7 @@
                     <div class="button" id="x"><p class="letters_buttons">X</p></div>
                     <div class="button" id="b"><p class="letters_buttons">B</p></div>
                     <div class="button" id="y"><p class="letters_buttons">Y</p></div>
-                    <div class="button" id="a"><p class="letters_buttons">A</p></div> 
+                    <div class="button" id="a"><p class="letters_buttons">A</p></div>
                  </div>
                  <div class="joystick_right">
                     <div class="lr3">
@@ -79,8 +79,8 @@
         <div class="division">
 
         </div>
-        
+
     </div>
-        
+
 </body>
 </html>

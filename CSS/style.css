@@ -1,20 +1,13 @@
-
 html{
     margin: 0;
 }
 
     /* div de la pagina completa donde añadir las columns */
 .switch{
-    /* background-image: url(../imagenes/switch.png);
-    background-color: green; */
-    background-position: center;
-    background-repeat: no-repeat;
     justify-content: center;
     display: grid;
     align-self: center;
-    height: 100vh;
-    width: 100vw;
-    /* border: 1px solid red; */
+    margin-top: 50vh;
     grid-template-columns: 0.45fr 0.122fr 0.635fr 0.122fr 0.45fr;
 }
 
@@ -27,6 +20,7 @@ html{
 
 }
 
+    /* Referente al joy-con izquierdo + comunes entre izquierdo y derecho*/
 .joycon{
     display: flex;
     justify-content: center;
@@ -35,44 +29,43 @@ html{
 .l1{
     position: fixed;
     overflow: hidden;
-    width: 5.5vw;
+    width: 11vh;
     height: 5.6vh;
-    border-radius: 30vw 0 0 0;
-    margin-top: -18.5vw;
+    border-radius: 20px 0 0 0;
+    margin-top: -35.5vh;
     margin-left: 0vh;
 }
 
 .l1button{
     background-color: #2e3134;
-    width: 10vw;
+    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    width: 11vh;
     height: 8vh;
-    border-radius: 3.9vw 0 0 0;
+    border-radius: 80px 0 0 0;
     margin-top: 0.3vh;
 
 }
 
 .l1:active{
-   margin-top: -18.2vw;
+   margin-top: -34.9vh;
 }
 
 .joycon_left{
-    /* border: 0.05vw solid cyan; */
     position: fixed;
-    background-color: #00bddc ;
-    width: 6.75vw;
-    height: 39.6vh;
-    border-radius: 4.2vw 0 0 4.2vw;
-    margin-top: 0.2vw;
-    margin-left: 0.1vw;
-    
-
+    background-color: #00bddc;
+    box-shadow: inset 7px 15px 5px -5px rgba(255,255,255,.6), inset 10px -35px 8px -25px rgba(0,0,0,.4), inset 12px 0px 10px -5px rgba(0,0,0,.4);
+    width: 12.72vh;
+    height: 39.8vh;
+    border-radius: 80px 0 0 80px;
+    margin-top: 0.4vh;
+    margin-left: 0.4vh;
 }
 
 .less{
     background-color: #2e3134;
-    width: 1.2vw;
+    width: 2.4vh;
     height: 0.52vh;
-    margin-top: 2.05vw;
+    margin-top: 3.5vh;
     margin-left: 7.2vh;
     position: static;
 }
@@ -80,50 +73,52 @@ html{
 .less:active{
     background-color: rgb(31, 30, 30);
     height: 0.4vh;
-    margin-top: 2.1vw;
+    margin-top: 3.6vh;
 }
 
 .joystick_left{
     justify-self: center;
     margin-top: 7.2vh;
     margin-left: -8.3vh;
-    width: 3.5vw;
+    width: 6.5vh;
     height: 6.5vh;
     overflow: hidden;
-    border-radius: 100vw;
+    border-radius: 80px;
 }
 
 .lr3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 3.5vw;
+    width: 6.5vh;
     height: 6.5vh;
-    border: 0.05vw solid black;
+    border: 1px solid black;
     background-color: #2e3134;
+    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
     border-radius: 100vw;
 }
 
 .lr3:active{
-    width: 3vw;
+    width: 5.7vh;
     height: 5.7vh;
-    margin-left: 0.3vw;
+    margin-left: 0.3vh;
     margin-top: 0.5vh;
 }
 
 .center{
     position: absolute;
-    width: 2.2vw;
+    width: 4.3vh;
     height: 4.3vh;
-    border: 0.1vw solid rgb(26, 25, 25);
-    border-radius: 100rem;
-    margin-left: 0.55vw;
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 100px;
+    margin-left: 0.9vh;
+    box-shadow: inset 2px 2px 20px 2px rgba(0,0,0,.8);
 }
 
 .center:active{
-    width: 1.9vw;
+    width: 3.8vh;
     height: 3.7vh;
-    margin-left: 0.4vw;
+    margin-left: 0.8vh;
 }
 
 
@@ -132,10 +127,11 @@ html{
     display: flex;
     justify-content: center;
     background-color: #43484b;
-    border: 0.05vw solid black;
-    width: 1.4vw;
+    border: 1px solid black;
+    width: 2.8vh;
     height: 2.8vh;
     border-radius: 5vh;
+    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
 }
 
 .button:active{
@@ -145,36 +141,36 @@ html{
 
 .arrows{
     position: fixed;
-    width: 5.5vw;
+    width: 11vh;
     height: 9.5vh;
-    margin-top: 8.5vw;
+    margin-top: 16vh;
     margin-left: 1vh;
 }
 
 .arrow_buttons{
-    width: 0.6vw;
+    width: 1.2vh;
     height: 1.2vh;
     margin-top: 0.8vh;
 }
 
 #up{
     margin-left: 3.7vh;
-    margin-top: 0.1vw;
+    margin-top: 0.2vh;
 }
 
 #down{
     margin-left: 3.7vh;
-    margin-top: 3.2vw;
+    margin-top: 6.5vh;
 }
 
 #left{
     margin-left: 0.5vh;
-    margin-top: 1.7vw;
+    margin-top: 3.4vh;
 }
 
 #right{
     margin-left: 6.9vh;
-    margin-top: 1.7vw;
+    margin-top: 3.4vh;
 }
 
 .media{
@@ -182,27 +178,27 @@ html{
     display: flex;
     justify-content: center;
     background-color: #43484b;
-    border: 0.05vw solid black;
-    width: 1.2vw;
+    border: 1px solid black;
+    width: 2.4vh;
     height: 2.4vh;
-    margin-top: 14.2vw;
+    margin-top: 27.2vh;
     margin-left: 5vh;
-    border-radius: 0.2vw;
+    border-radius: 4px;
 }
 
 .m_center{
-    border: 0.05vw solid ;
+    border: 1px solid  black;
     background-color: #2e3134;
     align-self: center;
-    width: 0.7vw;
+    width: 1.4vh;
     height: 1.4vh;
-    border-radius: 1vh;
+    border-radius: 80px;
 }
 
 .media:active{
-    width: 1vw;
-    height: 2vh;
-    margin-top: 14.4vw;
+    width: 2.2vh;
+    height: 2.2vh;
+    margin-top: 27.25vh;
 }
 
 
@@ -210,106 +206,94 @@ html{
     position: fixed;
     border: 1px solid black;
     background-color: rgb(43, 43, 43);
-    width: 35.5vw;
+    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    width: 67.7vh;
     height: 39.6vh;
-    margin-bottom: -0.24vw;
+    margin-top: 0.5vh;
 }
 
 .vol{
     position: fixed;
     background-color: #2e3134;
-    width: 1vw;
+    width: 2vh;
     height: 0.3vh;
 }
 .vol:active{
-    margin-top: -0.15vw;
+    margin-top: -0.3vh;
 }
 
 .vol_up{
     position: fixed;
     margin-left: 8.8vh;
-    margin-top: -0.2vw;
+    margin-top: -0.35vh;
 }
 
 .vol_down{
     position: fixed;
     margin-left: 12.55vh;
-    margin-top: -0.2vw;
+    margin-top: -0.35vh;
 }
 
 .window{
-    width: 50vw;
+    width: 100vh;
     height: 39.6vh;
-    margin-bottom: -0.24vw;
+    margin-bottom: -0.48vh;
     overflow: hidden;
 }
-
-/* .decoration_left{
-    position:fixed;
-    background-color: red;
-    width: 0.25vw;
-    height: 1.3.5vh;
-    border-radius: 0 0 5vw 0;
-} */
 
 .lcd_mark{
     position: fixed;
     background-color: black;
-    width: 33.5vw;
+    width: 64vh;
     height: 36.8vh;
     margin-top: 1.3vh;
-    margin-left: 1vw;
-    border-radius: 0.5vw;
+    margin-left: 2vh;
+    border-radius: 8px;
 }
 
 .lcd{
     position: fixed;
     background-color: rgb(43, 43, 43);
-    width: 29.4vw;
+    width: 56vh;
     height: 31.5vh;
     margin-top: 2.7vh;
-    margin-left: 2.1vw;
-    border-radius: 0vw;
+    margin-left: 4vh;
 }
 
 .r1{
     position: fixed;
     overflow: hidden;
-    width: 5.5vw;
+    width: 15vh;
     height: 5.6vh;
-    border-radius: 0 30vw 0 0;
-    margin-top: -18.5vw;
-    margin-left: 2.2vh;
+    border-radius: 0 20px 0 0;
+    margin-top: -35.5vh;
+    margin-left: 2.7vh;
 }
 
 .r1button{
     background-color: #2e3134;
-    width: 10vw;
+    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    width: 10.65vh;
     height: 8vh;
-    border-radius: 0 3.9vw 0 0;
+    border-radius: 0 80px 0 0;
     margin-top: 0.3vh;
-    margin-left: -8.4vh;
+    margin-left: 0vh;
 
 }
 
 
 .r1:active{
-    margin-top: -18.2vw;
+    margin-top: -34.9vh;
 }
 .joycon_right{
     position: fixed;
-    border: 0.05vw solid red;
     background-color: #ff5449;
-    width: 6.65vw;
-    height: 39.6vh;
-    border-radius: 0 4.2vw 4.2vw 0;
-    margin-bottom: -0.24vw;
-    margin-left: -0.1vw;
-    /* margin-top: -30vw; */
-}
-
-.joycon_right:active{
-    margin-top: 0;
+    box-shadow: inset 7px 15px 10px -5px rgba(255,255,255,.6), inset 10px -35px 8px -25px rgba(0,0,0,.4), inset 0px 0px 12px -5px rgba(0,0,0,.4);
+    width: 12.72vh;
+    height: 39.80vh;
+    border-radius: 0 80px 80px 0;
+    margin-bottom: -0.4vh;
+    margin-left: 0.4vh;
 }
 
 .pluse_marc{
@@ -318,31 +302,31 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1.5vw;
+    width: 3vh;
     height: 3vh;
-    margin-top: 1.1vw;
+    margin-top: 2.15vh;
     margin-left: -8.9vh;
     position: static;
 }
 
 #pluse{
-    margin-top: 0.1vw;
-    width: 1.2vw;
+    margin-top: 0.2vh;
+    width: 2.4vh;
     height: 2.4vh;
 
 
 }
 
 #pluse:active{
-    width: 1vw;
-    height: 2vh;
+    width: 2.2vh;
+    height: 2.2vh;
 }
 
 .letters{
     position: fixed;
-    width: 5.5vw;
+    width: 11vh;
     height: 9.5vh;
-    margin-top: 2.69vw;
+    margin-top: 5.1vh;
     margin-left: -0.5vh;
     justify-content: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -354,27 +338,27 @@ html{
     display: flex;
     align-self: center;
     justify-self: center;
-    font-size: 1vw;
+    font-size: 2vh;
 }
 
 #x{
     margin-left: 3.7vh;
-    margin-top: 0.1vw;
+    margin-top: 0.2vh;
 }
 
 #b{
     margin-left: 3.7vh;
-    margin-top: 3.2vw;
+    margin-top: 6.15vh;
 }
 
 #y{
     margin-left: 0.5vh;
-    margin-top: 1.7vw;
+    margin-top: 3.2vh;
 }
 
 #a{
     margin-left: 6.9vh;
-    margin-top: 1.7vw;
+    margin-top: 3.2vh;
 }
 
 .joystick_right{
@@ -382,27 +366,27 @@ html{
     justify-self: center;
     margin-top: 17.5vh;
     margin-left: -0.8vh;
-    width: 3.5vw;
+    width: 6.5vh;
     height: 6.5vh;
     overflow: hidden;
-    border-radius: 100vw;
+    border-radius: 80px;
 }
 
 .home{
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: #43484b;
-    border: 0.05vw solid black;
-    border-radius: 1vw;
-    width: 1.5vw;
+    background-color: #565a5c;
+    border: 1px solid rgb(37, 36, 36);
+    border-radius: 80px;
+    width: 3vh;
     height: 3vh;
-    margin-top: 14.1vw;
+    margin-top: 26.9vh;
     margin-left: -5.2vh;
 }
 
 .home:active{
-    background-color:#2e3134;
+    background-color:#3c4044;
 }
 
 .h_center{
@@ -412,16 +396,14 @@ html{
     justify-items: center;
     background-color: #2e3134;
     align-self: center;
-    width: 1.1vw;
+    width: 2.2vh;
     height: 2.2vh;
-    border-radius: 1vh;
+    border-radius: 80px;
 }
 
 .h_icon{
-    width: 0.9vw;
-    height: 1.8vh;
+    width: 1.7vh;
+    height: 1.7vh;
     margin-left: 0.2vh;
-    margin-top: -0.1vw;
-    
+    margin-top: -0.1vh;    
 }
-
