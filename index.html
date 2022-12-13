@@ -11,12 +11,12 @@
 
         <!-- Creamos el div para contener todo el proyecto con sis divisiones en grid para separar las distintas partes de la consola (los mandos joy-con y la consola)-->
     <div class="switch">
-        <!-- División vacia para posicionar la consola en el centro de la ventana -->
-        <div class="division">
 
-        </div>
+        <!-- División vacía para posicionar la consola en el centro de la ventana -->
+        <div class="division"></div>
+
         <!-- Se crea el mando joy-con izquierdo cons sus botones y estilos -->
-        <div class="division">
+        <div class="division" id="joy_left">
             <div class="l1">
                 <div class="l1button"></div>
             </div>
@@ -38,6 +38,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Se crea la parte del monitod e la pantalla con los botones de volumen correspondientes -->
         <div class="division">
             <div class="console">
@@ -45,13 +46,14 @@
                 <div class="vol_down vol"></div>
                 <div class="window">
                     <div class="lcd_mark">
-                        <div class="lcd"></div>
+                        <div class="lcd" id="lcd"></div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Se crea el mando joy-con derecho con sus botones correspondientes-->
-        <div class="division">
+        <div class="division" id="joy_right">
             <div class="r1">
                 <div class="r1button"></div>
             </div>
@@ -70,17 +72,17 @@
                         <div class="center"></div>
                     </div>
                 </div>
-                <div class="home">
+                <div class="home" id="home" onclick="start()">
                     <div class="h_center"><img class="h_icon" src="./imagenes/home.png" alt="Home"></div>
                 </div>
             </div>
         </div>
 
-        <div class="division">
-
-        </div>
-
+        <!-- División vacía para posicionar la consola en el centro de la ventana -->
+        <div class="division"></div>
     </div>
-
+    
+<script src="./js/main.js"></script>
 </body>
+
 </html>

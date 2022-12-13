@@ -1,3 +1,4 @@
+
 html{
     margin: 0;
 }
@@ -8,19 +9,22 @@ html{
     display: grid;
     align-self: center;
     margin-top: 50vh;
-    grid-template-columns: 0.45fr 0.122fr 0.635fr 0.122fr 0.45fr;
+    grid-template-columns: 20vh 13.2vh 67.9vh 15vh 20vh;
 }
 
     /* divs de las columnas donde ubicar las diferentes partes de la consola */
 .switch > .division{
-    /* border: 1px solid black; */
     overflow: hidden;
     display: flex;
     align-items: center;
 
 }
 
-    /* Referente al joy-con izquierdo + comunes entre izquierdo y derecho*/
+    /* divs del joy-con izquierdo + comunes entre izquierdo y derecho*/
+#joy_left{
+    margin-top: -75vh;
+}
+
 .joycon{
     display: flex;
     justify-content: center;
@@ -31,18 +35,18 @@ html{
     overflow: hidden;
     width: 11vh;
     height: 5.6vh;
-    border-radius: 20px 0 0 0;
+    border-radius: 2vh 0 0 0;
     margin-top: -35.5vh;
-    margin-left: 0vh;
 }
 
 .l1button{
     background-color: #2e3134;
-    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    box-shadow: inset 0 1.5vh 2vh -0.5vh rgba(255,255,255,.6), inset 0 -2.1vh 2vh -0.5vh rgba(0,0,0,.8);
     width: 11vh;
     height: 8vh;
-    border-radius: 80px 0 0 0;
+    border-radius: 9vh 0 0 0;
     margin-top: 0.3vh;
+    margin-left: 0.52vh;
 
 }
 
@@ -53,12 +57,12 @@ html{
 .joycon_left{
     position: fixed;
     background-color: #00bddc;
-    box-shadow: inset 7px 15px 5px -5px rgba(255,255,255,.6), inset 10px -35px 8px -25px rgba(0,0,0,.4), inset 12px 0px 10px -5px rgba(0,0,0,.4);
+    box-shadow: inset 0.7vh 1.5vh 0.5vh -0.5vh rgba(255,255,255,.6), inset 1vh -3.5vh 0.8vh -2.5vh rgba(0,0,0,.4), inset 1.2vh 0px 1vh -1vh rgba(0,0,0,.4);
     width: 12.72vh;
     height: 39.8vh;
-    border-radius: 80px 0 0 80px;
-    margin-top: 0.4vh;
-    margin-left: 0.4vh;
+    border-radius: 9vh 0 0 9vh;
+    margin-top: 0.2vh;
+    margin-left: 0.5vh;
 }
 
 .less{
@@ -83,7 +87,7 @@ html{
     width: 6.5vh;
     height: 6.5vh;
     overflow: hidden;
-    border-radius: 80px;
+    border-radius: 9vh;
 }
 
 .lr3{
@@ -92,10 +96,10 @@ html{
     justify-content: center;
     width: 6.5vh;
     height: 6.5vh;
-    border: 1px solid black;
+    border: 0.05vh solid black;
     background-color: #2e3134;
-    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
-    border-radius: 100vw;
+    box-shadow: inset 0 1.5vh 1.5vh -0.5vh rgba(255,255,255,.6), inset 0 -3.5vh 8vh -5vh rgba(0,0,0,.8);
+    border-radius: 50vh;
 }
 
 .lr3:active{
@@ -109,10 +113,10 @@ html{
     position: absolute;
     width: 4.3vh;
     height: 4.3vh;
-    border: 1px solid rgb(26, 25, 25);
-    border-radius: 100px;
+    border: 0.05vh solid rgb(26, 25, 25);
+    border-radius: 10vh;
     margin-left: 0.9vh;
-    box-shadow: inset 2px 2px 20px 2px rgba(0,0,0,.8);
+    box-shadow: inset 0vh 0vh 1vh 0.5vh rgba(0,0,0,.8);
 }
 
 .center:active{
@@ -127,16 +131,15 @@ html{
     display: flex;
     justify-content: center;
     background-color: #43484b;
-    border: 1px solid black;
+    border: 0.05vh solid black;
     width: 2.8vh;
     height: 2.8vh;
     border-radius: 5vh;
-    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    box-shadow: inset 0 1.5vh 2vh -0.8vh rgba(255,255,255,.6), inset 0 -2.1vh 2vh -1vh rgba(0,0,0,.8);
 }
 
 .button:active{
    background-color: #2e3134;
-
 }
 
 .arrows{
@@ -178,21 +181,21 @@ html{
     display: flex;
     justify-content: center;
     background-color: #43484b;
-    border: 1px solid black;
+    border: 0.05vh solid black;
     width: 2.4vh;
     height: 2.4vh;
     margin-top: 27.2vh;
     margin-left: 5vh;
-    border-radius: 4px;
+    border-radius: 0.4vh;
 }
 
 .m_center{
-    border: 1px solid  black;
+    border: 0.05vh solid  black;
     background-color: #2e3134;
     align-self: center;
     width: 1.4vh;
     height: 1.4vh;
-    border-radius: 80px;
+    border-radius: 9vh;
 }
 
 .media:active{
@@ -201,12 +204,12 @@ html{
     margin-top: 27.25vh;
 }
 
-
+/* Divs de la consola */
 .console{
     position: fixed;
-    border: 1px solid black;
+    border: 0.05vh solid black;
     background-color: rgb(43, 43, 43);
-    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
+    box-shadow: inset 0 1.5vh 2vh -0.5vh rgba(255,255,255,.6), inset 0 -2.1vh 2vh -0.5vh rgba(0,0,0,.8);
     width: 67.7vh;
     height: 39.6vh;
     margin-top: 0.5vh;
@@ -248,7 +251,7 @@ html{
     height: 36.8vh;
     margin-top: 1.3vh;
     margin-left: 2vh;
-    border-radius: 8px;
+    border-radius: 0.9vh;
 }
 
 .lcd{
@@ -260,22 +263,28 @@ html{
     margin-left: 4vh;
 }
 
+/* divs del joy-con derecho */
+#joy_right{
+    margin-top: -75vh;
+}
+
 .r1{
     position: fixed;
     overflow: hidden;
-    width: 15vh;
+    width: 17vh;
     height: 5.6vh;
-    border-radius: 0 20px 0 0;
+    border-radius: 0 2vh 0 0;
     margin-top: -35.5vh;
-    margin-left: 2.7vh;
+    margin-left: 1.7vh;
 }
 
 .r1button{
+    position: relative;
     background-color: #2e3134;
-    box-shadow: inset 0 15px 20px -10px rgba(255,255,255,.6), inset 0 -21px 20px -10px rgba(0,0,0,.8);
-    width: 10.65vh;
+    box-shadow: inset 0 1.5vh 2vh -0.5vh rgba(255,255,255,.6), inset 0 -2.1vh 2vh -0.5vh rgba(0,0,0,.8);
+    width: 10.9vh;
     height: 8vh;
-    border-radius: 0 80px 0 0;
+    border-radius: 0 9vh 0 0;
     margin-top: 0.3vh;
     margin-left: 0vh;
 
@@ -285,15 +294,16 @@ html{
 .r1:active{
     margin-top: -34.9vh;
 }
+
 .joycon_right{
     position: fixed;
     background-color: #ff5449;
-    box-shadow: inset 7px 15px 10px -5px rgba(255,255,255,.6), inset 10px -35px 8px -25px rgba(0,0,0,.4), inset 0px 0px 12px -5px rgba(0,0,0,.4);
+    box-shadow: inset 0.7vh 1.5vh 1vh -0.5vh rgba(255,255,255,.6), inset 1vh -3.5vh 0.8vh -2.5vh rgba(0,0,0,.4), inset 0 0 1.2vh -0.5vh rgba(0,0,0,.4);
     width: 12.72vh;
     height: 39.80vh;
-    border-radius: 0 80px 80px 0;
+    border-radius: 0 9vh 9vh 0;
     margin-bottom: -0.4vh;
-    margin-left: 0.4vh;
+    margin-left: 0vh;
 }
 
 .pluse_marc{
@@ -369,7 +379,7 @@ html{
     width: 6.5vh;
     height: 6.5vh;
     overflow: hidden;
-    border-radius: 80px;
+    border-radius: 9vh;
 }
 
 .home{
@@ -377,7 +387,7 @@ html{
     display: flex;
     justify-content: center;
     background-color: #565a5c;
-    border: 1px solid rgb(37, 36, 36);
+    border: 0.05vh solid rgb(37, 36, 36);
     border-radius: 80px;
     width: 3vh;
     height: 3vh;
@@ -398,7 +408,7 @@ html{
     align-self: center;
     width: 2.2vh;
     height: 2.2vh;
-    border-radius: 80px;
+    border-radius: 9vh;
 }
 
 .h_icon{
