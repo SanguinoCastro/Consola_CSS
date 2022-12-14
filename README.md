@@ -30,9 +30,9 @@
 ###   Reto
 
 <b> Copiar el diseño frontal de una videoconsola portátil, para ello utilizaremos las siguientes tecnologías:
-    - <img src= "./imagenes/html5.png" width="30"> HTML5
-    - <img src= "./imagenes/css.png" width="30"> CSS3
-    - <img src= "./imagenes/javascript.png" width="30"> JavaScript
+    | <img src= "./imagenes/html5.png" width="30"> | HTML5 |
+    |<img src= "./imagenes/css.png" width="30"> | CSS3 |
+    | <img src= "./imagenes/javascript.png" width="30"> | JavaScript |
 
 <b>El uso de Flexbox es crucial en este caso.
 También haremos uso de las siguientes herramientas:
