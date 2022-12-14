@@ -18,6 +18,8 @@
 
 [Actualizaciones del proyecto](#id6)
 
+[Prueba la consola](#id7)
+
 <a name="id1"></a>
 
 ###   Presentación
@@ -81,5 +83,10 @@
 <b>12/12/2022 - Se han añadido detalles estéticos como el sombreado, se han sustituido unidades de medida a "vh" para medidas y márgenes generales y "px" para los border-radius y los sombreados.</b>
 
 <b>13/12/2022- Se sustituyen el resto de unidades de medida a "vh" incluidos los "fr". Se añade código JavaScript para añadir la funcionalidad para acoplar los joy-cons y encender la consola, ambas opciones desde el botón "Home" del joy-stick derecho. El proyecto se da por finalizado.</b> 
+
+<a name="id7"></a>
+### Prueba la consola
+
+[ Proyecto Nintendo Switch](https://sanguinocastro.github.io/)
 
 [Ir al inicio](#top)
