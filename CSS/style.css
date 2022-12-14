@@ -258,7 +258,6 @@ html{
     position: fixed;
     display: flex;
     background-color: rgb(43, 43, 43);
-    /* background-position: center; */
     background-size: cover;
     width: 56vh;
     height: 31.5vh;
