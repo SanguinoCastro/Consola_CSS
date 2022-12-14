@@ -30,20 +30,23 @@
 ###   Reto
 
 <b> Copiar el diseño frontal de una videoconsola portátil, para ello utilizaremos las siguientes tecnologías:</b>
-  HTML5 
 
-  CSS3 
+<img src= "./imagenes/html5.png" width="30"> HTML5 
 
-  JavaScript 
+<img src= "./imagenes/css.png" width="30"> CSS3 
+
+<img src= "./imagenes/javascript.png" width="30"> JavaScript 
 
 <b>El uso de Flexbox es crucial en este caso.</b>
 
 <b>También haremos uso de las siguientes herramientas:</b>
-  Visual Studio Code 
 
-  Git 
+<img src= "./imagenes/visualstudio.png" width="40"> Visual Studio Code
   
-  GitHub 
+<img src= "./imagenes/git.png" width="30"> Git
+     
+<img src= "./imagenes/github.png" width="30">GitHub
+    
     
 <b>Hacer botones que reaccionen al encendido da puntos extra.</b>
 
