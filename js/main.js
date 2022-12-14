@@ -20,12 +20,7 @@ function start(){
     }     
     else{
         contador = 1;
-        
-        screen.style.backgroundImage=`url(${url})`;
-        
-
-        
-        
+        screen.style.backgroundImage=`url(${url})`;        
     }
 
 }
