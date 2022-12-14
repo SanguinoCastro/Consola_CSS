@@ -39,9 +39,13 @@ También haremos uso de las siguientes herramientas:
     - <img src= "./imagenes/visualstudio.png" width="40"> Visual Studio Code
     - <img src= "./imagenes/git.png" width="30"> Git
     - <img src= "./imagenes/github.png" width="30">GitHub
+  
+  
+  
+  
     
     
-Hacer botones que reaccionen al encendido da puntos extra.
+<b>Hacer botones que reaccionen al encendido da puntos extra.
 
 <a name="id3"></a>
 
