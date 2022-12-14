@@ -37,14 +37,9 @@
 <b>El uso de Flexbox es crucial en este caso.</b>
 
 <b>También haremos uso de las siguientes herramientas:</b>
-    <img src= "./imagenes/visualstudio.png" width="40"> Visual Studio Code
-    <img src= "./imagenes/git.png" width="30"> Git
-    <img src= "./imagenes/github.png" width="30">GitHub
-  
-  
-  
-  
-    
+    - <img src= "./imagenes/visualstudio.png" width="40"> Visual Studio Code
+    - <img src= "./imagenes/git.png" width="30"> Git
+    - <img src= "./imagenes/github.png" width="30">GitHub    
     
 <b>Hacer botones que reaccionen al encendido da puntos extra.</b>
 
