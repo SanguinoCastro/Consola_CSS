@@ -87,6 +87,6 @@
 <a name="id7"></a>
 ### Prueba la consola
 
-[ Proyecto Nintendo Switch](https://sanguinocastro.github.io/)
+[ Proyecto Nintendo Switch](https://sanguinocastro.github.io/Consola_CSS/)
 
 [Ir al inicio](#top)
